@@ -1,6 +1,6 @@
 ## TF-IDF Implementation  
 
-### Functionality of the code -  
+#### Functionality of the code -  
 
 1. The stopwords.txt file is being used for stopwords removal.  
 2. Porter Stemmer from the NLTK library is used.  
@@ -12,7 +12,7 @@
 8. Cosine similarity function - Cosine similarity is used to find the similarity between each of the documents with each of the queries. The cosine similarity function takes a single number as a parameter and returns those many top ranked documents for each query.     
 9. Avg. Precision and Avg. Recall computation - This part of the program uses the cosine similarity and relevance.txt document to find a precision and recall score for each query and then averages each of the score individually to produce the average precision score and average recall score for top 10, 50, 100 and 500 ranked documents for all the ten queries.         
 
-### How to run the code -  
+#### How to run the code -  
 
 For Windows:  
 1. Open Command prompt:   Start menu -> Run  and type 'cmd'. This will cause the Windows terminal to open.  
@@ -27,7 +27,7 @@ For Mac:
 3. Run the program using command 'python3 tf_idf.py'  
 4. You will be prompted to input the paths to the dataset directory, stopwords file, queries file and relevance file.  
 
-## Output -   
+#### Output -   
 
 Enter the path to the dataset directory/folder: ./cranfieldDocs/  
 
